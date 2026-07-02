@@ -8,7 +8,7 @@
           <mxGeometry height="90" width="380" x="10" as="geometry" />
         </mxCell>
         <mxCell id="4yJNnCFY3kRO1OacFKxV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=17;" value="Core App" vertex="1">
-          <mxGeometry height="130" width="190" x="240" y="120" as="geometry" />
+          <mxGeometry height="130" width="530" x="90" y="120" as="geometry" />
         </mxCell>
         <mxCell id="4yJNnCFY3kRO1OacFKxV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Plugin" vertex="1">
           <mxGeometry height="60" width="120" x="60" y="360" as="geometry" />
@@ -27,6 +27,117 @@
         </mxCell>
         <mxCell id="4yJNnCFY3kRO1OacFKxV-7" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.884;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="4yJNnCFY3kRO1OacFKxV-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Helps Extensibility&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stupif if-else or cases are avoided&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="310" x="660" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Interface" vertex="1">
+          <mxGeometry height="40" width="90" x="510" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Registry" vertex="1">
+          <mxGeometry height="40" width="90" x="395" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manager" vertex="1">
+          <mxGeometry height="40" width="90" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Security" vertex="1">
+          <mxGeometry height="40" width="90" x="150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="How to resolve dependency conflict" vertex="1">
+          <mxGeometry height="30" width="310" x="60" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-19" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-23" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Core&lt;div&gt;JVM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-21" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-18" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Classloader&lt;div&gt;P1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Start Plugin P1" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-25" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-22" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Classloader&lt;div&gt;P2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-24" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Start Plugin p2" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case1 : separate classloader" vertex="1">
+          <mxGeometry height="30" width="280" x="70" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Case 2 : Shaded jars" vertex="1">
+          <mxGeometry height="30" width="280" x="60" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-30" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Core&lt;div&gt;JVM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-32" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-35" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="load&lt;div&gt;shader jar p1&lt;/div&gt;&lt;div&gt;+ load shaded jar P2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-31" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Start P1 Plugin" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Start plugin p2" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="How to maintain security ?" vertex="1">
+          <mxGeometry height="30" width="190" x="45" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-40" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="new plugin submitted" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-42" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Code assessed by Core team" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-44" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Approved" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-46" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4yJNnCFY3kRO1OacFKxV-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-43" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Digitally Signed" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-45" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Release" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Digital Cert : Once certified only that plugin can be installed and run&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" x="80" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Sandbox :&amp;nbsp; Plugin once installed in run in sandbox with restriction&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" x="90" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Only provide through interface what is needed: This will evade some malicioud activity of extracting info&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" x="80" y="1630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
