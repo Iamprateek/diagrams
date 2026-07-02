@@ -4,11 +4,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2ry6J4jStiIDyA99jYw6-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="60" x="380" y="290" as="geometry" />
-        </mxCell>
         <mxCell id="2ry6J4jStiIDyA99jYw6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="Plugin Architecture" vertex="1">
           <mxGeometry height="90" width="380" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=17;" value="Core App" vertex="1">
+          <mxGeometry height="130" width="190" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Plugin" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-6" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4yJNnCFY3kRO1OacFKxV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Plugin" vertex="1">
+          <mxGeometry height="60" width="120" x="275" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Plugin" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-5" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.074;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" target="4yJNnCFY3kRO1OacFKxV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yJNnCFY3kRO1OacFKxV-7" edge="1" parent="1" source="4yJNnCFY3kRO1OacFKxV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.884;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="4yJNnCFY3kRO1OacFKxV-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
