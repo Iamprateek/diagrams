@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="xqT1U2P4Yd4WEzhIyjb3">
-    <mxGraphModel dx="964" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="584" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1f5hPha_7mHULudLKkt0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Chat CLient" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1f5hPha_7mHULudLKkt0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ChatClient" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1f5hPha_7mHULudLKkt0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ChatModel" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1f5hPha_7mHULudLKkt0-5" edge="1" parent="1" source="1f5hPha_7mHULudLKkt0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.192;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="1f5hPha_7mHULudLKkt0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1f5hPha_7mHULudLKkt0-9" edge="1" parent="1" source="1f5hPha_7mHULudLKkt0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="1f5hPha_7mHULudLKkt0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1f5hPha_7mHULudLKkt0-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;boundedLbl=1;" value="advisors" vertex="1">
+          <mxGeometry height="60" width="88" x="270" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
